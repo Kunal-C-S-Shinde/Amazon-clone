@@ -25,6 +25,7 @@ const ProductPage = () => {
 
   useEffect(() => {
     getProduct();
+    // eslint-disable-next-line
   }, []);
 
   if (!product?.title) return <h1>Loading Product ...</h1>;

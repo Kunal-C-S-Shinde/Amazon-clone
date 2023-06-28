@@ -27,6 +27,7 @@ const SearchResults = () => {
 
   useEffect(() => {
     getSearchResults();
+    // eslint-disable-next-line
   }, [searchParams]);
 
   return (
